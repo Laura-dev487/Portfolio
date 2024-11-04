@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="header-menu">
+            <a href="about.html" class="header-menu-link">Sobre mí</a>
+            <a href="#skills" class="header-menu-link">Skills</a>
+            <a href="#Formacion" class="header-menu-link">Formación</a>
+            <a href="#Experiencia profesional" class="header-menu-link">Experiencia profesional</a>
+            <a href="#Contacto" class="header-menu-link">Contacto</a>
+        </nav>
+    </header> 
+    <div class="presentacion">
+        <div class="texto">
+            <h1>Laura Bartoli<br><span>Frontend Developer</span></h1>
+            <h2>Sobre mi</h2>
+            <p>Apasionada por aprender, por enseñar y por la tecnología, me gustaría trabajar en el desarrollo Web y seguir aprendiendo nuevos lenguajes</p>
+            <a class="leer-mas" href="about.html"><p>Leer más...</p></a>
+        </div>
+        <img src="./imagenes/foto.png" alt="foto de Laura Bartoli" class="foto">
+    </div>
+    <div class="secciones">
+        <div id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="./imagenes/js.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <img src="./imagenes/HTML5.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card">
+                    <img src="./imagenes/CSS.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-card">
+                    <img src="./imagenes/figma.png" alt="Figma">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+        <div id="Formacion" class="formacion">
+            <h2>Formación académica</h2>
+            <p>Actualmente estoy participando del proyecto Oracle One en Alura Latam</p>
+            <div class="formacion-container">
+                <a class="formacion-imagen">
+                    <img src="./imagenes/Alura.png" alt="Alura Latam">Alura Latam
+                </a>
+                <a class="formacion-imagen">
+                    <img src="./imagenes/One.png" alt="One">One
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div id="Experiencia profesional" class="experiencia">
+            <h2>Experiencia profesional</h2>
+        <div class="experiencia-item">
+            <img src="./imagenes/encriptador de texto.png" alt="Encriptador de texto">
+        <div class="experiencia-info">
+         <p>Encriptador de texto</p>
+         <a href="https://github.com/Laura-dev487/Encriptador-de-texto" class="boton-proyecto">Repositorio</a>
+    </div>
+        </div>
+    <div class="experiencia-item">
+        <img src="./imagenes/juego Pong.png" alt="juego Pong">
+      <div class="experiencia-info">
+        <p>Juego Pong</p>
+        <a href="https://github.com/Laura-dev487/Juego-Pong.git" class="boton-proyecto">Repositorio</a>
+       </div>
+    </div>
+    <div class="experiencia-item">
+        <img src="./imagenes/Portfolio.png" alt="Portfolio">
+      <div class="experiencia-info">
+        <p>Portfolio</p>
+        <a href="https://github.com/Laura-dev487" class="boton-proyecto">Repositorio</a>
+       </div>
+    </div>
+</div>
+
+<div id="Contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Completa el formulario y me pondré en contacto lo antes posible</p>
+    <div class="contacto-contenido">
+        <form id="contactForm">
+            <p><label for="nombre">Nombre:<input type="text" id="nombre"></label></p>
+            <p><label for="e-mail">e-mail:<input type="text" id="e-mail"></label></p>
+            <p><label for="asunto">Asunto:<input type="text" id="asunto"></label></p>
+            <p><label for="mensaje">Mensaje:<textarea id="mensaje"></textarea></label></p>
+            <button type="submit">Enviar mensaje</button>
+            <p id="mensajeExito" style="display: none; color: #7b11e5; margin-top: 10px;">Mensaje enviado exitosamente</p>
+        </form>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/lauradev487/"><img src="./imagenes/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/Laura-dev487"><img src="./imagenes/github.png" alt="Github"></a>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Desarrollado por LauraDev 2024</p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
